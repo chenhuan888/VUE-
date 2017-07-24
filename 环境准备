@@ -1,0 +1,17 @@
+1.安装nodejs
+  此处省略...
+  node -v 查看node安装版本
+  
+2.安装NPM
+  此处省略...,一般nodejs安装好了之后,NPM也一起安装好
+  npm -v 查看NPM安装版本
+  
+3.由于NPM安装是国外服务器,建议国内安装使用淘宝的npm镜像-cnpm
+
+4.安装cnpm
+  npm install -g cnpm --registry=https://registry.npm.taobao.org
+  后面可以使用cnpm命令进行插件的安装
+  cnpm install -g weex-toolkit
+  
+5.安装vue
+  cnmp install vue
